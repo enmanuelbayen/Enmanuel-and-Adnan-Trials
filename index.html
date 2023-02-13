@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
- <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <title>Enmanuel and Adnan  Page</title>
 
-<link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Enmanuel and Adnan Page</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 
 <body>
 
-<h1 id="title">Survey Form</h1>
+    <h1 id="title">Survey Form</h1>
 
-<p id="description">Please fill up this form to help us to know you better</p>
+    <p id="description">Please fill up this form to help us to know you better</p>
 
+<<<<<<< HEAD
 <form id="survey-form">
     
     <label id="name-label">Can you give us your name</label>b<input id="name" type="text" placeholder="Please Enter Your Name" required></label><br>
@@ -29,20 +31,42 @@
     <br><input type="radio" name="weight" value="KG">kg
     <input type="radio" name="weight" value="LB">lB
 </label><br>
+=======
+    <form id="survay-form">
+>>>>>>> c3c6a31687aaedbed4ffb21525181eeb79a476c2
 
-<label>Are you feeling well?
-<select name="question" id="dropdown" > 
-    <option value="yes">Yes</option>
-    <option value="no">No</option>
-</select></label><br> 
+        <label id="name-label">Can you give us your name</label>b<input id="name" type="text"
+            placeholder="Please Enter Your Name" required></label><br>
 
-<label>which social media do you use:
-    <input type="checkbox" value="facebook" name="social">
-    <input type="checkbox" value="Instagram" name="social">
-</label>
-</form>
+        <label id="email-label">Writte your email for more info</label><input id="email" type="email"
+            placeholder="Enter your Email" name="email" required></label><br>
+
+        <label id="number-label">Rate your level of happiness from 1 to 10</label><input id="number" type="number"
+            name="number" min="1" max="10" placeholder="1-10" required></label><br>
+
+        <label> How you prefer to be weight it?
+            <br><input type="radio" name="Weight" value="KG">kg
+            <input type="radio" name="Height" value="LB">lB
+        </label><br>
+
+        <label>Are you feeling well?
+            <select name="question" id="dropdown">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select></label><br>
+
+        <label>which social media do you use:
+            <input type="checkbox" value="facebook" name="social">
+            <input type="checkbox" value="Instagram" name="social">
+        </label>
+        <textarea name="textarea" rows="4" cols="50">
+        Any Feedback!
+        </textarea>
+        <button id="submit" value="Submit"></button>
+    </form>
 
 
 
 </body>
+
 </html>
